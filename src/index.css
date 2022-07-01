@@ -16,3 +16,51 @@ code {
   text-decoration: line-through;
   color: green;
 }
+
+.todo {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #252a34;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 25px;
+  background-image: linear-gradient(to top right, #30e3ca, #11999e);
+  border-radius: 12px;
+  width: 50vw;
+  text-align: center;
+  color: #e4f9f5;
+}
+
+.clear {
+  padding: 8px;
+  border: none;
+  background-color: #252a34;
+  color: #e4f9f5;
+  border-radius: 5px;
+}
+
+.inp {
+  background-color: #252a34;
+  padding: 10px;
+  border-radius: 8px;
+  color: #e4f9f5;
+  border: none;
+}
+.submit {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  color: #e4f9f5;
+  background-color: #252a34;
+  border-radius: 8px;
+  border: none;
+}

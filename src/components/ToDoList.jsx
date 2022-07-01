@@ -9,7 +9,7 @@ export default function ToDoList({ toDoList, handleToggle, handleFilter }) {
                 <ToDo todo={todo} handleToggle={handleToggle} handleFilter={handleFilter}/>
             )
         })}
-        <button style={{margin: "20px"}} onClick={handleFilter}>Clear Completed Tasks</button>
+        <button style={{margin: "20px"}} onClick={handleFilter} className="clear">Clear Completed Tasks</button>
     </div>
   );
 };
